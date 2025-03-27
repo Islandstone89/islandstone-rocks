@@ -1,0 +1,12 @@
+
+<header class="header">
+    <nav class="nav-menu">
+        <ul class="nav__list">
+            {% for item in navigation.items %}
+            <li class="nav__item">
+                <a href="{{item.url}}" class="nav__link">{{item.text}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
