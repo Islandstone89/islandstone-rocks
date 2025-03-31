@@ -1,5 +1,7 @@
 export default function(eleventyConfig) {
-  return {
+  eleventyConfig.addWatchTarget("./src/css");
+
+  return {  
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
