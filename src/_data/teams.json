@@ -1,0 +1,22 @@
+{
+    "teams": [
+        {
+            "name": "Middlesbrough Football Club",
+            "nickname": "Boro",
+            "founded": "1876",
+            "stadium": "Riverside"
+        },
+        {
+            "name": "FC Internazionale Milano",
+            "nickname": "Nerazzuri",
+            "founded": "1908",
+            "stadium": "Giuseppe Meazza"
+        },
+        {
+            "name": "Lillestrøm Sportsklubb",
+            "nickname": "Kanarifugla",
+            "founded": "1917",
+            "stadium": "Åråsen"
+        }
+    ]
+}
