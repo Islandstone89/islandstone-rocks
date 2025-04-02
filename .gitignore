@@ -3,6 +3,7 @@
 npm-debug.*
 .env
 .cache
+*.txt
 
 # Node modules and output
 node_modules
