@@ -76,3 +76,37 @@
         {% endfor %}
     </div><!-- end teams -->
 </section><!-- end favorite-teams -->
+
+
+
+
+
+<section class="games-attended" aria-labelledby="gamesAttendedHeading">
+    <h2 id="gamesAttendedHeading" class="games-attended__heading">Games attended</h2>
+
+    <table class="games-attended__table">
+        <caption>Games</caption>
+        <thead>
+            <tr class="table__row">
+                <th class="table__heading">Date</th>
+                <th class="table__heading">Home Team</th>
+                <th class="table__heading">Away Team</th>
+                <th class="table__heading">Result</th>
+                <th class="table__heading">Stadium</th>
+                <th class="table__heading">Attendance</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for game in games.games %}
+            <tr class="table__row game">
+                <td class="table__data"><time datetime="{{game.datetimes}}">{{game.date}}</time></td>
+                <td class="table__data">{{game.home_team}}</td>
+                <td class="table__data">{{game.away_team}}</td>
+                <td class="table__data">{{game.result}}</td>
+                <td class="table__data">{{game.stadium}}</td>
+                <td class="table__data">{{game.attendance}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table><!-- end games-attended__table -->
+</section><!-- end games-attended -->

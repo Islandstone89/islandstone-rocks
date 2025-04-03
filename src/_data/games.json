@@ -2,6 +2,7 @@
     "games": [
         {
             "date": "29.09.2012",
+            "datetime": "2012-09-29",
             "home_team": "Lillestrøm",
             "away_team": "Viking",
             "result": "0 - 0",
@@ -10,6 +11,7 @@
         },
         {
             "date": "15.01.2025",
+            "datetime": "2025-01-15",
             "home_team": "Inter",
             "away_team": "Bologna",
             "result": "2 - 2",
@@ -18,6 +20,7 @@
         },
         {
             "date": "15.10.2005",
+            "datetime": "2005-10-15",
             "home_team": "Middlesbrough",
             "away_team": "Portsmouth",
             "result": "1 - 1",
@@ -26,6 +29,7 @@
         },
         {
             "date": "01.01.2011",
+            "datetime": "2011-01-01",
             "home_team": "Leeds",
             "away_team": "Middlesbrough",
             "result": "1 - 1",
@@ -34,6 +38,7 @@
         },
         {
             "date": "03.01.2011",
+            "datetime": "2011-01-03",
             "home_team": "Middlesbrough",
             "away_team": "Norwich",
             "result": "1 - 1",
@@ -42,6 +47,7 @@
         },
         {
             "date": "25.05.2015",
+            "datetime": "2015-05-25",
             "home_team": "Middlesbrough",
             "away_team": "Norwich",
             "result": "0 - 2",
@@ -50,6 +56,7 @@
         },
         {
             "date": "19.03.2017",
+            "datetime": "2017-03-19",
             "home_team": "Middlesbrough",
             "away_team": "Manchester United",
             "result": "1 - 3",
@@ -58,6 +65,7 @@
         },
         {
             "date": "09.11.2019",
+            "datetime": "2019-11-09",
             "home_team": "QPR",
             "away_team": "Middlesbrough",
             "result": "2 - 2",
@@ -66,6 +74,7 @@
         },
         {
             "date": "04.03.2023",
+            "datetime": "2023-03-04",
             "home_team": "Middlesbrough",
             "away_team": "Reading",
             "result": "5 - 0",
