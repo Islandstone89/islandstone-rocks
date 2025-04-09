@@ -2,21 +2,39 @@
     "teams": [
         {
             "name": "Middlesbrough Football Club",
+            "image": {
+                "src": "assets/images/boro.png",
+                "alt": "Logo - Middlesbrough FC "
+            },
             "nickname": "Boro",
             "founded": "1876",
-            "stadium": "Riverside"
+            "stadium": "Riverside",
+            "supporter_since": "1995",
+            "favorite_player": "Juninho"
         },
         {
             "name": "FC Internazionale Milano",
+            "image": {
+                "src": "assets/images/inter.png",
+                "alt": "Logo - Inter Milan "
+            },
             "nickname": "Nerazzuri",
             "founded": "1908",
-            "stadium": "Giuseppe Meazza"
+            "stadium": "Giuseppe Meazza",
+            "supporter_since": "1997",
+            "favorite_player": "Javier Zanetti"
         },
         {
             "name": "Lillestrøm Sportsklubb",
+            "image": {
+                "src": "assets/images/lsk.svg",
+                "alt": "Logo - Lillestrøm SK "
+            },
             "nickname": "Kanarifugla",
             "founded": "1917",
-            "stadium": "Åråsen"
+            "stadium": "Åråsen",
+            "supporter_since": "1997",
+            "favorite_player": "Arild Sundgot"
         }
     ]
 }
