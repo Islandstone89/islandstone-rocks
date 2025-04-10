@@ -1,0 +1,13 @@
+.header {
+    background-color: green;
+}
+
+.nav__list {
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #cdf6f6;
+    color: initial;
+}
