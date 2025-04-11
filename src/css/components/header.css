@@ -1,13 +1,19 @@
 .header {
-    background-color: green;
+    background-color: #cdf6f6;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
 }
 
 .nav__list {
-    background-color: hotpink;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: #cdf6f6;
     color: initial;
+}
+
+.nav__link {
+    text-decoration: none;
+    border-right: 2px solid  red;
+    padding-right: 10px;
 }
