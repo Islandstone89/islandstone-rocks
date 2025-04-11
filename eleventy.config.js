@@ -13,6 +13,7 @@ export default function(eleventyConfig) {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
+    
     dir: {
         input: "src",
         output: "public"
