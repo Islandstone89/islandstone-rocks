@@ -34,3 +34,30 @@
     </div><!-- end favorite-genres -->
     
 </section><!-- end music-favorites -->
+
+
+
+
+
+<aside class="on-repeat">
+    <h2 class="on-repeat__heading">Songs currently on repeat</h2>
+
+    <ul class="on-repeat__list">
+        <li class="on-repeat__item">Toto - Straight to the Heart</li>
+        <li class="on-repeat__item">Rush - Emotion Detector</li>
+        <li class="on-repeat__item">Nine Inch Nails - Hurt</li>
+    </ul><!-- end on-repeat__list -->
+</aside><!-- end on-repeat -->
+
+
+
+
+<aside class="on-repeat">
+    <h2 class="on-repeat__heading">Songs currently on repeat</h2>
+
+    <ul class="on-repeat__list">
+        {% for song in onrepeat.songs %}
+            <li class="on-repeat__item">{{song.artist_name}} - {{song.song_name}}</li>
+        {% endfor %}
+    </ul><!-- end on-repeat__list -->
+</aside><!-- end on-repeat -->
