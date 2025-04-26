@@ -1,5 +1,74 @@
 body {
     background-color: red;
-    color: white;
+    background-color: initial;
+    background-color: hsl(0, 0%, 90%);
+    /* background-color: hsl(180, 10%, 96%);
+    background-color: hsl(0, 0%, 100%); */
     font-family: Arial, Helvetica, sans-serif;
+    background-colors: hsl(0, 0%, 10%);
+    colors: hsl(195, 73%, 79%);
+    colors: hsl(16, 83%, 75%);
+    background-colors: hsl(0, 0%, 96%);
+    color: hsl(240, 80%, 17%);
+}
+
+.on-repeat__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+:is(.header, .main, .footer) {
+    margin-inline: auto;
+    padding-inline: 4rem;
+    max-width: 50rem;
+}
+
+.teams {
+    background-color: hotpinks;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+    gap: 40px;
+}
+
+.team__fact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.team__name {
+    color: #011da0;
+    colors: #d5002e;
+    colors: #f4d832;
+}
+
+/* #011da0
+
+#d5002e
+
+#f4d832
+*/
+
+.games-attended__table {
+    background-color: darkcyan;
+    text-align: left;
+    border-collapse: collapse;
+
+    th, td {
+        border: 1px solid;
+        paddings: 1em;
+        text-box: trim-both cap alphabetic;
+        padding: .5em;
+    }
+
+    th {
+        border-block-end: 3px solid currentColor
+    }
+
+    tr:nth-child(even) {
+        background-color: hsl(from red h s 60%);
+        background-color: color-mix(in oklch, red, transparent 40%);
+    }
 }

@@ -7,7 +7,7 @@
 
     <div class="teams">
         {% for team in teams.teams %}
-        <div class="team">
+        <div class="team flow">
 
             <h3 class="team__name">{{team.name}}</h3>
             <img src="{{team.image.src}}" alt="{{team.image.alt}}" class="team__logo">
@@ -143,7 +143,7 @@
 
     <ul class="on-repeat__list">
         {% for song in onrepeat.songs %}
-            <li class="on-repeat__item">{{song.artist_name}} - {{song.song_name}}</li>
+            <li class="on-repeat__item"><img src="assets/images/note-edit.webp" alt="" class="note">{{song.artist_name}} - {{song.song_name}}</li>
         {% endfor %}
     </ul><!-- end on-repeat__list -->
 </aside><!-- end on-repeat -->
