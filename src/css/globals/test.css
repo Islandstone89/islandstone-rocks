@@ -10,7 +10,9 @@ body {
     colors: hsl(16, 83%, 75%);
     background-colors: hsl(0, 0%, 96%);
     color: hsl(240, 80%, 17%);
-    background-color: hsl(16, 83%, 85%);
+    background-colors: hsl(16, 83%, 85%);
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 .on-repeat__item {
@@ -32,10 +34,22 @@ body {
     gap: 40px;
 }
 
+.team {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 2px rgb(0, 0, 0 / .5);
+}
+
+.team__facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .team__fact {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
     
 }
 
@@ -53,7 +67,7 @@ body {
 */
 
 .games-attended__table {
-    background-color: darkcyan;
+    background-color: white;
     text-align: left;
     border-collapse: collapse;
 
@@ -71,9 +85,15 @@ body {
     tr:nth-child(even) {
         background-color: hsl(from red h s 60%);
         background-color: color-mix(in oklch, red, transparent 40%);
+        background-color: whitesmoke;
     }
 }
 
 .team__fact__key {
     font-weight: 700;
+}
+
+*:focus-visible {
+    outline: 3px solid black;
+    outline-offset: 2px;
 }
