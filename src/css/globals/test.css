@@ -10,6 +10,7 @@ body {
     colors: hsl(16, 83%, 75%);
     background-colors: hsl(0, 0%, 96%);
     color: hsl(240, 80%, 17%);
+    background-color: hsl(16, 83%, 85%);
 }
 
 .on-repeat__item {
@@ -71,4 +72,8 @@ body {
         background-color: hsl(from red h s 60%);
         background-color: color-mix(in oklch, red, transparent 40%);
     }
+}
+
+.team__fact__key {
+    font-weight: 700;
 }

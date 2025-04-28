@@ -6,7 +6,7 @@
             "home_team": "Lillestrøm",
             "away_team": "Viking",
             "result": "0 - 0",
-            "stadium": "Åråsen Stadion",
+            "stadium": "Åråsen",
             "attendance": "4 723"
         },
         {
@@ -24,7 +24,7 @@
             "home_team": "Middlesbrough",
             "away_team": "Portsmouth",
             "result": "1 - 1",
-            "stadium": "Riverside Stadium",
+            "stadium": "Riverside",
             "attendance": "26 551"
         },
         {
@@ -42,7 +42,7 @@
             "home_team": "Middlesbrough",
             "away_team": "Norwich",
             "result": "1 - 1",
-            "stadium": "Riverside Stadium",
+            "stadium": "Riverside",
             "attendance": "16 853"
         },
         {
@@ -51,7 +51,7 @@
             "home_team": "Middlesbrough",
             "away_team": "Norwich",
             "result": "0 - 2",
-            "stadium": "Wembley Stadium",
+            "stadium": "Wembley",
             "attendance": "85 656"
         },
         {
@@ -60,7 +60,7 @@
             "home_team": "Middlesbrough",
             "away_team": "Manchester United",
             "result": "1 - 3",
-            "stadium": "Riverside Stadium",
+            "stadium": "Riverside",
             "attendance": "32 689"
         },
         {
@@ -78,7 +78,7 @@
             "home_team": "Middlesbrough",
             "away_team": "Reading",
             "result": "5 - 0",
-            "stadium": "Riverside Stadium",
+            "stadium": "Riverside",
             "attendance": "26 823"
         }
     ]
