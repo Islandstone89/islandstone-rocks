@@ -3,6 +3,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 export default function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css");
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+  eleventyConfig.addPassthroughCopy("/assets/fonts/montserrat-v29-latin-regular.woff2");
 
   eleventyConfig.addPairedShortcode('element', (content, el = 'aside', className) => {
       return `<${el} class="${className}">${content}</${el}>`
