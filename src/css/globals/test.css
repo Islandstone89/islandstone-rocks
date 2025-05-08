@@ -1,7 +1,7 @@
 body {
     background-color: red;
     background-color: initial;
-    background-color: hsl(0, 0%, 90%);
+    background-color: hsl(0, 0%, 99%);
     /* background-color: hsl(180, 10%, 96%);
     background-color: hsl(0, 0%, 100%); */
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +10,8 @@ body {
     colors: hsl(16, 83%, 75%);
     background-colors: hsl(0, 0%, 96%);
     color: hsl(240, 80%, 17%);
-    background-colors: hsl(16, 83%, 85%);
+    background-color: hsl(16, 33%, 95%);
+    background-color: hsl(200, 50%, 95%);
 
     font-family: 'Montserrat', sans-serif;
 }
@@ -24,7 +25,7 @@ body {
 :is(.header, .main, .footer) {
     margin-inline: auto;
     padding-inline: 4rem;
-    max-width: 50rem;
+    max-width: 60rem;
 }
 
 .teams {
@@ -37,7 +38,7 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 2px 2px rgb(0, 0, 0 / .5);
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 0.25);
 }
 
 .team__name {
@@ -47,7 +48,7 @@ body {
 .team__content {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 20px;
+    gap: 40px;
 }
 
 .team__facts {

@@ -4,7 +4,7 @@
             "name": "Middlesbrough Football Club",
             "image": {
                 "src": "assets/images/boro.png",
-                "alt": "Logo - Middlesbrough FC "
+                "alt": "Logo - Middlesbrough FC."
             },
             "nickname": "Boro",
             "founded": "1876",
@@ -16,7 +16,7 @@
             "name": "FC Internazionale Milano",
             "image": {
                 "src": "assets/images/inter.png",
-                "alt": "Logo - Inter Milan "
+                "alt": "Logo - Inter Milan."
             },
             "nickname": "Nerazzuri",
             "founded": "1908",
@@ -28,7 +28,7 @@
             "name": "Lillestrøm Sportsklubb",
             "image": {
                 "src": "assets/images/lsk.png",
-                "alt": "Logo - Lillestrøm SK "
+                "alt": "Logo - Lillestrøm SK."
             },
             "nickname": "Kanarifugla",
             "founded": "1917",

@@ -23,7 +23,13 @@
 
 */
 
+:root {
 
-/* Primitive properties */
+    /* Primitive properties */
 
-/* Semantic properties */
+    /* Semantic properties */
+
+    --clr-bg: ;
+    --clr-text: ;
+}
+
