@@ -1,7 +1,5 @@
 <h1 class="page-heading">Football</h1>
 
-<img src="https://images.unsplash.com/photo-1517495306984-f84210f9daa8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Test">
-
 <section class="favorite-teams" aria-labelledby="favoriteTeams">
     <h2 id="favoriteTeams">Favorite teams</h2>
 
@@ -156,3 +154,58 @@
         {% endfor %}
     </ul><!-- end on-repeat__list -->
 </aside><!-- end on-repeat -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="teams">
+       
+        <div class="team flow">
+
+            <h3 class="team__name">{{team.name}}</h3>
+
+            <div class="team__content">
+                <img src="{{team.image.src}}" alt="{{team.image.alt}}" class="team__logo">
+
+                <div class="team__facts-wrapper">
+                    <dl class="team__facts">
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Nickname:</dt>
+                            <dd class="team__fact__value">{{team.nickname}}</dd>
+                        </div><!-- end team__fact -->
+                        
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Founded:</dt>
+                            <dd class="team__fact__value"><time datetime="{{team.founded}}">{{team.founded}}</time></dd>
+                        </div><!-- end team__fact -->
+                        
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Stadium:</dt>
+                            <dd class="team__fact__value">{{team.stadium}}</dd>
+                        </div><!-- end team__fact -->
+
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Supporter since:</dt>
+                            <dd class="team__fact__value"><time datetime="{{team.supporter_since}}">{{team.supporter_since}}</time></dd>
+                        </div><!-- end team__fact -->
+
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Favorite player:</dt>
+                            <dd class="team__fact__value"><time datetime="{{team.supporter_since}}">{{team.favorite_player}}</time></dd>
+                        </div><!-- end team__fact -->
+                        
+                    </dl><!-- end team__facts -->
+                </div><!-- end team__facts-wrapper-->
+            </div><!-- end team__content -->
+        </div><!-- end team -->
+    </div><!-- end teams -->
