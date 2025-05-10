@@ -36,7 +36,7 @@
 
                         <div class="team__fact">
                             <dt class="team__fact__key">Favorite player:</dt>
-                            <dd class="team__fact__value"><time datetime="{{team.supporter_since}}">{{team.favorite_player}}</time></dd>
+                            <dd class="team__fact__value"><a href="{{team.favorite_player.wikipedia}}">{{team.favorite_player.player}}</a></dd>
                         </div><!-- end team__fact -->
                         
                     </dl><!-- end team__facts -->
@@ -154,6 +154,25 @@
         {% endfor %}
     </ul><!-- end on-repeat__list -->
 </aside><!-- end on-repeat -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

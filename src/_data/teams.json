@@ -10,7 +10,10 @@
             "founded": "1876",
             "stadium": "Riverside",
             "supporter_since": "1995",
-            "favorite_player": "Juninho Paulista"
+            "favorite_player": {
+                "player": "Juninho Paulista",
+                "wikipedia": "https://en.wikipedia.org/wiki/Juninho_Paulista"
+            }
         },
         {
             "name": "FC Internazionale Milano",
@@ -22,7 +25,10 @@
             "founded": "1908",
             "stadium": "Giuseppe Meazza",
             "supporter_since": "1997",
-            "favorite_player": "Javier Zanetti"
+            "favorite_player": {
+                "player": "Javier Zanetti",
+                "wikipedia": "https://en.wikipedia.org/wiki/Javier_Zanetti"
+            }
         },
         {
             "name": "Lillestrøm Sportsklubb",
@@ -34,7 +40,10 @@
             "founded": "1917",
             "stadium": "Åråsen",
             "supporter_since": "1997",
-            "favorite_player": "Arild Sundgot"
+            "favorite_player": {
+                "player": "Arild Sundgot",
+                "wikipedia": "https://en.wikipedia.org/wiki/Arild_Sundgot"
+            }
         }
     ]
 }
