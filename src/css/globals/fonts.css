@@ -15,3 +15,109 @@
     font-weight: 700;
     src: url('assets/fonts/montserrat-v29-latin-700.woff2') format('woff2');
   }
+
+
+  
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/roboto-v47-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/roboto-v47-latin-700.woff2') format('woff2');
+}
+
+
+
+
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/inter-v18-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/inter-v18-latin-700.woff2') format('woff2');
+}
+
+
+
+
+
+
+
+@font-face {
+  font-display: swap;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/josefin-sans-v32-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/josefin-sans-v32-latin-700.woff2') format('woff2');
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-display: swap;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/kanit-v16-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/kanit-v16-latin-700.woff2') format('woff2');
+}
+
+
+
+
+
+
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/lora-v35-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/lora-v35-latin-700.woff2') format('woff2');
+}
