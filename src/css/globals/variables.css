@@ -28,6 +28,7 @@
     /* Primitive properties */
 
     --fw-400: 400;
+    --fw-700: 700;
 
     --size-4px: 4px;
     --size-8px: 8px;
@@ -44,6 +45,9 @@
 
     --clr-bg: ;
     --clr-text: ;
+
+    --fw-regular: var(--fw-400);
+    --fw-bold: var(--fw-700);
 
     --space-50: var(--size-4px);
     --space-100: var(--size-8px);
