@@ -27,6 +27,8 @@
 
     /* Primitive properties */
 
+    --ff-sans-serif: ;
+
     --fw-400: 400;
     --fw-700: 700;
 
@@ -40,11 +42,23 @@
     --size-32px: 32px;
     --size-36px: 36px;
     --size-40px: 40px;
+    --size-44px: 44px;
+    --size-48px: 48px;
+    --size-52px: 52px;
+    --size-56px: 56px;
+    --size-60px: 60px;
+    --size-64px: 64px;
+    --size-68px: 68px;
+    --size-72px: 72px;
+    --size-76px: 76px;
+    --size-80px: 80px;
 
     /* Semantic properties */
 
     --clr-bg: ;
     --clr-text: ;
+
+    --ff-primary: ;
 
     --fw-regular: var(--fw-400);
     --fw-bold: var(--fw-700);
