@@ -12,8 +12,8 @@ body {
     color: hsl(80, 80%, 7%);
     color: hsl(0, 0%, 0%);
     background-color: hsl(16, 33%, 95%);
-    background-color: hsl(200, 50%, 97%);
-    color: hsl(229, 99%, 12%);
+    background-color: hsl(200, 40%, 95%);
+    color: hsl(229, 99%, 6%);
 
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -75,7 +75,7 @@ body {
 }
 
 .team__name {
-    color: hsl(229, 99%, 12%);
+    colors: hsl(229, 99%, 12%);
     colors: #d5002e;
     colors: #f4d832;
 }
