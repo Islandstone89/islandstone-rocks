@@ -27,6 +27,9 @@
 
     /* Primitive properties */
 
+    --clr-lightblue: hsl(200, 40%, 95%);
+    --clr-darkblue: hsl(229, 87%, 9%);
+
     --ff-sans-serif: ;
 
     --fw-400: 400;
@@ -55,8 +58,8 @@
 
     /* Semantic properties */
 
-    --clr-bg: ;
-    --clr-text: ;
+    --clr-bg: var(--clr-lightblue);
+    --clr-text: var(--clr-darkblue);
 
     --ff-primary: ;
 
