@@ -1,3 +1,9 @@
+
+*:focus-visible {
+    outline: 3px solid black;
+    outline-offset: 2px;
+}
+
 body {
     background-color: red;
     background-color: initial;
@@ -117,7 +123,10 @@ body {
     font-weight: 700;
 }
 
-*:focus-visible {
-    outline: 3px solid black;
-    outline-offset: 2px;
+.footer {
+    text-align: center;
+}
+
+.page-heading {
+    text-align: center;
 }
