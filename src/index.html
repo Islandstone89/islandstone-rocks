@@ -1,0 +1,131 @@
+---
+layout: 'layouts/base.html'
+title: 'Home'
+---
+
+
+{% block content %}
+
+  <section class="homepage__intro flow" aria-labelledby="homepageHeading">
+    <h1 class="homepage__heading" id="homepageHeading">Islandstone</h1>
+    <p class="homepage__intro__text">Hi, I'm Islandstone. I have 3 main passions: Football, Music and Web.</p>
+  </section><!-- end homepage_intro -->
+
+  <h1 class="page-heading">Football</h1>
+
+<section class="favorite-teams" aria-labelledby="favoriteTeams">
+    <h2 id="favoriteTeams">Favorite teams</h2>
+
+    <div class="teams">
+        {% for team in teams.teams %}
+        <div class="team flow">
+
+            <h3 class="team__name">{{team.name}}</h3>
+
+            <div class="team__content">
+                <img src="{{team.image.src}}" alt="{{team.image.alt}}" class="team__logo">
+
+                <div class="team__facts-wrapper">
+                    <dl class="team__facts">
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Nickname:</dt>
+                            <dd class="team__fact__value">{{team.nickname}}</dd>
+                        </div><!-- end team__fact -->
+                        
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Founded:</dt>
+                            <dd class="team__fact__value"><time datetime="{{team.founded}}">{{team.founded}}</time></dd>
+                        </div><!-- end team__fact -->
+                        
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Stadium:</dt>
+                            <dd class="team__fact__value">{{team.stadium}}</dd>
+                        </div><!-- end team__fact -->
+
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Supporter since:</dt>
+                            <dd class="team__fact__value"><time datetime="{{team.supporter_since}}">{{team.supporter_since}}</time></dd>
+                        </div><!-- end team__fact -->
+
+                        <div class="team__fact">
+                            <dt class="team__fact__key">Favorite player:</dt>
+                            <dd class="team__fact__value"><a href="{{team.favorite_player.wikipedia}}">{{team.favorite_player.player}}</a></dd>
+                        </div><!-- end team__fact -->
+                        
+                    </dl><!-- end team__facts -->
+                </div><!-- end team__facts-wrapper-->
+            </div><!-- end team__content -->
+        </div><!-- end team -->
+        {% endfor %}
+    </div><!-- end teams -->
+</section><!-- end favorite-teams -->
+
+
+<section class="games-attended" aria-labelledby="gamesAttendedHeading">
+    <h2 id="gamesAttendedHeading" class="games-attended__heading">Games attended</h2>
+
+    <table class="games-attended__table">
+        <caption>Games</caption>
+        <thead>
+            <tr class="table__row">
+                <th class="table__heading">Date</th>
+                <th class="table__heading">Home Team</th>
+                <th class="table__heading">Away Team</th>
+                <th class="table__heading">Result</th>
+                <th class="table__heading">Stadium</th>
+                <th class="table__heading">Attendance</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for game in games.games %}
+            <tr class="table__row game">
+                <td class="table__data"><time datetime="{{game.datetime}}">{{game.date}}</time></td>
+                <td class="table__data">{{game.home_team}}</td>
+                <td class="table__data">{{game.away_team}}</td>
+                <td class="table__data">{{game.result}}</td>
+                <td class="table__data">{{game.stadium}}</td>
+                <td class="table__data">{{game.attendance}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table><!-- end games-attended__table -->
+</section><!-- end games-attended -->
+
+
+
+
+
+
+
+<aside class="on-repeat">
+    <h2 class="on-repeat__heading">Songs currently on repeat</h2>
+
+    <ul class="on-repeat__list">
+        <li class="on-repeat__item">Toto - Straight to the Heart</li>
+        <li class="on-repeat__item">Rush - Emotion Detector</li>
+        <li class="on-repeat__item">Nine Inch Nails - Hurt</li>
+    </ul><!-- end on-repeat__list -->
+</aside><!-- end on-repeat -->
+
+
+
+
+<aside class="on-repeat">
+    <h2 class="on-repeat__heading">Songs currently on repeat</h2>
+
+    <ul class="on-repeat__list">
+        {% for song in onrepeat.songs %}
+            <li class="on-repeat__item">
+                <svg class="note" aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 3.80989C6.75 3.29386 7.14265 2.86257 7.65642 2.81428L16.6564 1.96832C17.2431 1.91318 17.75 2.37468 17.75 2.96393V5.14519C17.75 5.65923 17.3603 6.08955 16.8487 6.1403L7.84873 7.03323C7.26031 7.09161 6.75 6.62943 6.75 6.03812V3.80989Z" fill="#000000"/>
+                    <ellipse cx="14.75" cy="15" rx="3" ry="2.5" fill="#000000"/>
+                    <ellipse cx="5.75" cy="16" rx="3" ry="2.5" fill="#000000"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.75 5H17.75V15H15.75V5Z" fill="#000000"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 6H8.75V16H6.75V6Z" fill="#000000"/>
+                    </svg>{{song.artist_name}} - {{song.song_name}}</li>
+        {% endfor %}
+    </ul><!-- end on-repeat__list -->
+</aside><!-- end on-repeat -->
+
+
+{% endblock %}
