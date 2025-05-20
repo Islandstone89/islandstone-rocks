@@ -1,0 +1,4 @@
+.footer {
+    padding-block-start: var(--space-250);
+    padding-block-end: var(--space-250);
+}
