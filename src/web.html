@@ -6,85 +6,8 @@ title: 'Web'
 
 {% block content %}
 
-    <h1 class="page-heading">Football</h1>
+<h1 class="page-heading">Web</h1>
 
-<section class="favorite-teams" aria-labelledby="favoriteTeams">
-    <h2 id="favoriteTeams">Favorite teams</h2>
-
-    <div class="teams">
-        {% for team in teams.teams %}
-        <div class="team flow">
-
-            <h3 class="team__name">{{team.name}}</h3>
-
-            <div class="team__content">
-                <img src="{{team.image.src}}" alt="{{team.image.alt}}" class="team__logo">
-
-                <div class="team__facts-wrapper">
-                    <dl class="team__facts">
-                        <div class="team__fact">
-                            <dt class="team__fact__key">Nickname:</dt>
-                            <dd class="team__fact__value">{{team.nickname}}</dd>
-                        </div><!-- end team__fact -->
-                        
-                        <div class="team__fact">
-                            <dt class="team__fact__key">Founded:</dt>
-                            <dd class="team__fact__value"><time datetime="{{team.founded}}">{{team.founded}}</time></dd>
-                        </div><!-- end team__fact -->
-                        
-                        <div class="team__fact">
-                            <dt class="team__fact__key">Stadium:</dt>
-                            <dd class="team__fact__value">{{team.stadium}}</dd>
-                        </div><!-- end team__fact -->
-
-                        <div class="team__fact">
-                            <dt class="team__fact__key">Supporter since:</dt>
-                            <dd class="team__fact__value"><time datetime="{{team.supporter_since}}">{{team.supporter_since}}</time></dd>
-                        </div><!-- end team__fact -->
-
-                        <div class="team__fact">
-                            <dt class="team__fact__key">Favorite player:</dt>
-                            <dd class="team__fact__value"><a href="{{team.favorite_player.wikipedia}}">{{team.favorite_player.player}}</a></dd>
-                        </div><!-- end team__fact -->
-                        
-                    </dl><!-- end team__facts -->
-                </div><!-- end team__facts-wrapper-->
-            </div><!-- end team__content -->
-        </div><!-- end team -->
-        {% endfor %}
-    </div><!-- end teams -->
-</section><!-- end favorite-teams -->
-
-
-<section class="games-attended" aria-labelledby="gamesAttendedHeading">
-    <h2 id="gamesAttendedHeading" class="games-attended__heading">Games attended</h2>
-
-    <table class="games-attended__table">
-        <caption>Games</caption>
-        <thead>
-            <tr class="table__row">
-                <th class="table__heading">Date</th>
-                <th class="table__heading">Home Team</th>
-                <th class="table__heading">Away Team</th>
-                <th class="table__heading">Result</th>
-                <th class="table__heading">Stadium</th>
-                <th class="table__heading">Attendance</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for game in games.games %}
-            <tr class="table__row game">
-                <td class="table__data"><time datetime="{{game.datetime}}">{{game.date}}</time></td>
-                <td class="table__data">{{game.home_team}}</td>
-                <td class="table__data">{{game.away_team}}</td>
-                <td class="table__data">{{game.result}}</td>
-                <td class="table__data">{{game.stadium}}</td>
-                <td class="table__data">{{game.attendance}}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table><!-- end games-attended__table -->
-</section><!-- end games-attended -->
-
+<p>Placeholder content</p>
 
 {% endblock %}
