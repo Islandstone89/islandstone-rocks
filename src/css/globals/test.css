@@ -130,3 +130,11 @@ body {
 .page-heading {
     text-align: center;
 }
+
+.intro-quote__text {
+    font-style: italic;
+}
+
+a {
+    text-underline-offset: .25em;
+}

@@ -12,7 +12,7 @@ title: 'Football'
     <blockquote>
         <p class="intro-quote__text">"Football is the most important of the less important things in the world."</p>
     </blockquote>
-    <p class="intro-quote__author">Carlo Ancelotti</p>
+    <p class="intro-quote__author">~ Carlo Ancelotti ~</p>
 </div><!-- end intro-quote -->
 
 <section class="favorite-teams" aria-labelledby="favoriteTeams">
@@ -20,7 +20,7 @@ title: 'Football'
 
     <div class="teams">
         {% for team in teams.teams %}
-        <div class="team flow">
+        <article class="team flow">
 
             <h3 class="team__name">{{team.name}}</h3>
 
@@ -45,7 +45,7 @@ title: 'Football'
                         </div><!-- end team__fact -->
 
                         <div class="team__fact">
-                            <dt class="team__fact__key">Supporter since:</dt>
+                            <dt class="team__fact__key">Fan since:</dt>
                             <dd class="team__fact__value"><time datetime="{{team.supporter_since}}">{{team.supporter_since}}</time></dd>
                         </div><!-- end team__fact -->
 
@@ -57,7 +57,7 @@ title: 'Football'
                     </dl><!-- end team__facts -->
                 </div><!-- end team__facts-wrapper-->
             </div><!-- end team__content -->
-        </div><!-- end team -->
+        </article><!-- end team -->
         {% endfor %}
     </div><!-- end teams -->
 </section><!-- end favorite-teams -->
