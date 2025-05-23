@@ -20,4 +20,10 @@
 .nav__link {
     text-decoration: none;
     font-weight: 600;
+    transition: opacity 250ms ease-in-out;
+
+        &:is(:hover) {
+            opacity: .75;
+    }
 }
+

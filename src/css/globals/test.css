@@ -64,6 +64,7 @@ body {
 .team__content {
     display: grid;
     grid-template-columns: 1fr;
+    align-items: center;
     gap: 40px;
 
     @media (width > 50rem) {
@@ -135,6 +136,15 @@ body {
     font-style: italic;
 }
 
+.intro-quote__author {
+    --flow-space: var(--space-200);
+}
+
 a {
     text-underline-offset: .25em;
+}
+
+.favorite-teams {
+    padding-block-start: var(--space-800);
+    padding-block-end: var(--space-800);
 }
