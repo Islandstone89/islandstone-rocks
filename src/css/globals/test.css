@@ -28,7 +28,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Kanit', sans-serif;
     font-family: 'Lora', serif;
 }
 
@@ -104,7 +103,6 @@ body {
 
     th, td {
         border: 1px solid;
-        paddings: 1em;
         text-box: trim-both cap alphabetic;
         padding: .5em;
     }
