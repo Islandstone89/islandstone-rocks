@@ -146,3 +146,7 @@ a {
     padding-block-start: var(--space-800);
     padding-block-end: var(--space-800);
 }
+
+a[aria-current="page"] {
+    text-decoration: underline;
+}
