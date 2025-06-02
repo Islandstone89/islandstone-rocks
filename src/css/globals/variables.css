@@ -33,6 +33,7 @@
     --ff-sans-serif: ;
 
     --fw-400: 400;
+    --fw-600: 600;
     --fw-700: 700;
 
     --size-4px: 4px;
@@ -64,6 +65,7 @@
     --ff-primary: ;
 
     --fw-regular: var(--fw-400);
+    --fw-semi-bold: var(--fw-600);
     --fw-bold: var(--fw-700);
 
     --space-50: var(--size-4px);

@@ -25,5 +25,11 @@
         &:is(:hover) {
             opacity: .75;
     }
+
+        &[aria-current="page"] {
+            text-decoration: underline;
+    }
 }
+
+
 
