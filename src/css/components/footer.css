@@ -2,4 +2,5 @@
     padding-block-start: var(--space-250);
     padding-block-end: var(--space-250);
     border-block-start: 1px solid var(--clr-text);
+    word-spacing: .16em;
 }

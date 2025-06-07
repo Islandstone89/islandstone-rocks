@@ -67,7 +67,7 @@ body {
     gap: 40px;
 
     @media (width > 50rem) {
-        grid-template-columns: 2fr 3fr;
+        grid-template-columns: 2fr 4fr;
     }
 }
 
@@ -149,6 +149,10 @@ a {
 
 
 .main {
-    padding-block-start: var(--space-300);
-    padding-block-end: var(--space-300);
+    padding-block-start: var(--space-400);
+    padding-block-end: var(--space-400);
+}
+
+.page-heading {
+    padding-block-end: var(--space-400);
 }
