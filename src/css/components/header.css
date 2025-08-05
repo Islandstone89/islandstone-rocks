@@ -21,6 +21,9 @@
     text-decoration: none;
     font-weight: 600;
     transition: opacity 250ms ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: var(--space-100);
 
         &:is(:hover) {
             opacity: .75;
@@ -31,5 +34,8 @@
     }
 }
 
+.menu-icon {
+    /* block-size: 1em; */
+}
 
 

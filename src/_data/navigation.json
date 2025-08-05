@@ -3,19 +3,23 @@
     "items": [
         {
             "text": "Home",
-            "url": "/"
+            "url": "/",
+            "icon": "/assets/images/home.svg"
         },
         {
             "text": "Football",
-            "url": "/football/"
+            "url": "/football/",
+            "icon": "/assets/images/football.svg"
         },
         {
             "text": "Music",
-            "url": "/music/"
+            "url": "/music/",
+            "icon": "/assets/images/music.svg"
         },
         {
             "text": "Web",
-            "url": "/web/"
+            "url": "/web/",
+            "icon": "/assets/images/web.svg"
         }
     ]
 }
