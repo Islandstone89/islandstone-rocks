@@ -1,7 +1,7 @@
 /* UTILITIES */
 
 .flow {
-    --flow-space: var(--space-500)
+    --flow-space: var(--space-500);
 }
 
 .flow > * + * {
