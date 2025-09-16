@@ -4,7 +4,7 @@
 }
 
 .nav__list {
-    --gap: 8px;
+    --gap: var(--space-100);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,13 +13,13 @@
 
      @media (width > 50rem) {
         flex-direction: row;
-        --gap: 40px;
+        --gap: var(--space-500);
     }
 }
 
 .nav__link {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: var(--fw-semi-bold);
     transition: opacity 250ms ease-in-out;
     display: flex;
     align-items: center;
