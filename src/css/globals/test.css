@@ -29,6 +29,15 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
+    font-familys: 'Open Sans', sans-serif;
+    font-familys: 'Playfair Display', serif;
+}
+
+
+h1,h2,h3 {
+    font-family: 'Playfair Display', serif;
+    font-familys: 'Oswald', sans-serif;
 }
 
 .on-repeat__item {

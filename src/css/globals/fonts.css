@@ -100,3 +100,74 @@
   font-weight: 700;
   src: url('assets/fonts/lora-v35-latin-700.woff2') format('woff2');
 }
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-display: swap;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/oswald-v57-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/oswald-v57-latin-700.woff2') format('woff2');
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/open-sans-v44-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/open-sans-v44-latin-700.woff2') format('woff2'); 
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/playfair-display-v40-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/playfair-display-v40-latin-700.woff2') format('woff2'); 
+}
