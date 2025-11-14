@@ -27,7 +27,7 @@
 
     /* Primitive properties */
 
-    --clr-lightblue: hsl(200, 40%, 95%);
+    --clr-lightblue: hsl(200, 40%, 98%);
     --clr-darkblue: hsl(229, 87%, 9%);
 
     --ff-sans-serif: ;
@@ -61,6 +61,8 @@
 
     --clr-bg: var(--clr-lightblue);
     --clr-text: var(--clr-darkblue);
+
+    --clr-bg: hsl(0, 0%, 99%);
 
     --ff-primary: ;
 

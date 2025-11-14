@@ -1,6 +1,8 @@
-.header {
+.header, .footer {
     padding-block-start: var(--space-250);
     padding-block-end: var(--space-250);
+
+    background-color: hsl(195, 60%, 90%);
 }
 
 .nav__list {
