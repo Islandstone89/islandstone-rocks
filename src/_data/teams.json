@@ -4,6 +4,7 @@
             "name": "Middlesbrough Football Club",
             "image": {
                 "src": "assets/images/boro.png",
+                "src": "assets/images/boro-badge.jpg",
                 "alt": "Logo - Middlesbrough FC."
             },
             "nickname": "Boro",
