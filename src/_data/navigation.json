@@ -20,6 +20,11 @@
             "text": "Web",
             "url": "/web/",
             "icon": "/assets/images/web.svg"
+        },
+        {
+            "text": "Geography",
+            "url": "/geography/",
+            "icon": "/assets/images/web.svg"
         }
     ]
 }
