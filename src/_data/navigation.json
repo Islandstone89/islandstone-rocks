@@ -3,28 +3,23 @@
     "items": [
         {
             "text": "Home",
-            "url": "/",
-            "icon": "/assets/images/home.svg"
+            "url": "/"
         },
         {
             "text": "Football",
-            "url": "/football/",
-            "icon": "/assets/images/football.svg"
+            "url": "/football/"
         },
         {
             "text": "Music",
-            "url": "/music/",
-            "icon": "/assets/images/music.svg"
+            "url": "/music/"
         },
         {
             "text": "Web",
-            "url": "/web/",
-            "icon": "/assets/images/web.svg"
+            "url": "/web/"
         },
         {
             "text": "Geography",
-            "url": "/geography/",
-            "icon": "/assets/images/web.svg"
+            "url": "/geography/"
         }
     ]
 }
